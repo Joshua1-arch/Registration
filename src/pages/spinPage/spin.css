@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  /* Center the content */
+html,
+body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Adjust the size of the WheelComponent */
+.react-wheel-of-prizes {
+  width: 100%;
+  max-width: 300px;
+}
+
+/* Customize the appearance of the wheel */
+.react-wheel-of-prizes .wheel {
+  border: 2px solid #000;
+  border-radius: 50%;
+}
+
+/* Customize the appearance of the spin button */
+.react-wheel-of-prizes .spin-button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
